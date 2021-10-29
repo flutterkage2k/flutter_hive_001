@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterhive001/models/transaction.dart';
+import 'package:flutterhive001/transaction_page.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ),
       ),
+      home: TransactionPage(),
     );
   }
 }
